@@ -9,10 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!"><i class="material-icons">reviews</i>Обзор</a></li>
+        <li><a href="#!"><i class="material-icons">favorite_border</i>Особенности</a></li>
+        <li><a href="#!"><i class="material-icons">sync_alt</i>Технология</a></li>
+        <li><a href="#!"><i class="material-icons">phone</i>Контакты</a></li>
+        <li><a href="#!"><i class="material-icons">login</i>Войти</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+    </ul>
     <header class="header">
         <div class="container">
             <div class="header__navbar-flex">
@@ -29,6 +41,11 @@
                     </ul>
                 </div>
                 <div class="navbar__flex-right">
+                    <a class="burger sidenav-trigger" data-target="slide-out">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </a>
                     <button class="header__navbar-btn">Вход</button>
                 </div>
             </div>
@@ -199,6 +216,8 @@
                 <p class="copyright footer__p">Copyright 2021 CloudBudget</p>
         </div>
     </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
