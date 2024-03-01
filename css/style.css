@@ -351,10 +351,9 @@ li {
 
 .features__icon-4 {
     max-width: 70px;
-    max-height: 70px;
+    max-height: 70px; 
+    padding-left: 8px;
 }
-
-.features__flex-item-info {}
 
 .features__h3 {
     margin-bottom: 11px;
