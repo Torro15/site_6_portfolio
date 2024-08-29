@@ -856,9 +856,8 @@ input {
         padding-right: 50px;
     }
 
-    form {
+    form .name, form .phone{
         width: 100%;
-
     }
 
     .contact__p {
@@ -911,10 +910,6 @@ input {
     }
 
     .download__flex-right {
-        width: 100%;
-    }
-
-    form .name, form .phone{
         width: 100%;
     }
 
